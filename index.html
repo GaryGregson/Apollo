@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Web Cooperative</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="styles" type="text/css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!-- Here is our main header that is used accross all the pages of our website -->
+
+    <header>
+ <!-- how to create a simple text selector, CSS will look for h1title -->
+      <h1 class="h1title">The Web Cooperative</h1>
+
+
+      <!-- Even is it's not mandatory, it'ste an HTML document</li>
+ common practice to put the main navigation menu within the main header -->
+
+      <nav>
+
+		<p>
+ 		 <!-- Let's use:-->
+  			<span><a href="shopping.html"> Shopping </a></span>
+  			<span><a href="transport.html"> Transport </a></span>
+ 		 	<span><a href="social.html"> Social </a></span>
+			<span><a href="chat.html"> Chat </a></span>
+		</p>
+
+        <ul>
+ 		  <li>Home</li>
+          <li><a href="shopping.html">Shopping</a></li>
+          <li><a href="transport.html">Transport</a></li>
+	      <li><a href="social.html">Social</a></li>
+ 		  <li><a href="chat.html">Chat</a></li>
+
+	</ul>
+
+        <!-- A Search form is another commmon non-linear way to navigate through a website. -->
+
+        <form>
+          <input type="search" name="q" placeholder="Search query">
+          <input type="submit" value="Go!">
+        </form>
+      </nav>
+    </header>
+
+    <!-- Here is our page's main content -->
+    <main>
+
+      <!-- It contains an article -->
+      <article>
+        <h2>Article heading</h2>
+
+
+
+
+        <p><em>This page gives you the best of the web at your fingertips</em></p>
+
+		<!-- putimage below here -->
+
+		<figure>
+		  <img src="images/coop.jpeg"
+			   alt="lots of carrots in a round ring"
+			   width="300"
+			   height="161">
+
+		  <figcaption>Shopping.</figcaption>
+		</figure>
+
+        <h3>subsection</h3>
+
+        <p>xxxxx xxxxx xxxxxxx</p>
+
+        <p>xxxx xxxxx xxxxxx</p>
+
+        <h3>xxxxxx=</h3>
+
+        <p>xxxxxx xxxxxxxx xxxxxxxx xxxx.</p>
+
+        <p>xxxxxxxx xxxx xxxxx xxxxxx xxxx</p>
+      </article>
+
+      <!-- the aside content can also be nested within the main content -->
+      <aside>
+        <h2>Related</h2>
+
+        <ul>
+          <li><a href="#">Games</a></li>
+          <li><a href="#">Face book</a></li>
+          <li><a href="#">instagram</a></li>
+          <li><a href="#">Amazon</a></li>
+          <li><a href="#">Whatever</a></li>
+        </ul>
+      </aside>
+
+    </main>
+
+    <!-- And here is our main footer that is used across all the pages of our website -->
+
+    <footer>
+      <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
+
+  </body>
+</html>
